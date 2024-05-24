@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+h1 {
+    padding: 2rem 25rem;
+}
+
+#hr-1 {
+    background-color: white;
+    height: 0.09rem;
+    width: 45%;
+    margin-left: 26%;
+}
+
+.div-p {
+    font-size: 13px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    line-height: 25px;
+}
+
+img {
+    height: 8rem;
+    border-radius: 10%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 6rem 2rem;
+}
+
+#hr-2 {
+    width: 75%;
+    margin-left: 12%;
+}
+
+.footer-p {
+    font-size: 12px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    display: inline-block;
+    margin: 0 rem;
+    margin-left: 12rem;
+}
+
+footer {
+    background-color: #222222;
+    margin-top: 3rem;
+}
+
+#username-input{
+    display: block;
+    color: white;
+    background-color: black;
+    margin: 1.5rem 0rem;
+    width: 20rem;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+#password-input{
+    display: block;
+    color: white;
+    background-color: black;
+    margin: 1.5rem 0rem;
+    width: 20rem;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+#contact-div{
+    padding-left: 37%;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.btn-sub{
+    color: white;
+    background-color: #222222;
+    margin-left: 7rem;
+    height: 2.5rem;
+    width: 5rem;
+    border: 1 px solid black;
+}
+.btn-sub:hover{
+    border: 2px solid white;
+}
