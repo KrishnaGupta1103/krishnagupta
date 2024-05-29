@@ -6,38 +6,63 @@
 }
 
 body {
-    background-color: black;
-    font-family: "Montserrat", sans-serif;
-    color: white;
-}
-
-h1 {
-    padding: 2rem 25rem;
-}
-
-#hr-1 {
     background-color: white;
-    height: 0.09rem;
-    width: 45%;
-    margin-left: 26%;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(45, 1, 139);
 }
 
-.div-p {
+.sec-1{
+    background-color: rgb(27, 0, 86);
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+.div-1{
+    background-color: rgb(27, 0, 86);
+    color: white;
+    height: 17rem;
+    display: flex;
+    align-items: center;
+}
+#main-head{
+    margin: 2rem 5rem;
+    font-size: 50px;
+    width: 14%;
+}
+
+.div1-p {
     font-size: 13px;
-    margin-left: 2rem;
+    margin-left: 0rem;
     margin-right: 2rem;
-    line-height: 25px;
+    line-height: 30px;
 }
-
+.div2-p {
+    font-size: 13px;
+    margin-left: 4rem;
+    margin-right: -1rem;
+    line-height: 30px;
+}
+.div3-p {
+    font-size: 13px;
+    margin-left: -1rem;
+    margin-right: 2rem;
+    line-height: 30px;
+}
 img {
     height: 8rem;
-    border-radius: 10%;
+    border-radius: 13%;
+}
+
+#sec-1-img {
+    height: 8rem;
+    border-radius: 13%;
+    margin-left: 30%;
 }
 
 .container {
     display: flex;
     align-items: center;
-    margin: 6rem 2rem;
+    margin: 6rem 0rem 6rem 0rem;
 }
 
 #hr-2 {
@@ -55,8 +80,9 @@ img {
 }
 
 footer {
-    background-color: #222222;
+    background-color: rgb(27, 0, 86);
     margin-top: 3rem;
+    color: white;
 }
 
 #username-input{
@@ -92,4 +118,26 @@ footer {
 }
 .btn-sub:hover{
     border: 2px solid white;
+}
+#sec-skills{
+    transform: rotate(90deg);
+}
+#sec-projects{
+    transform: rotate(270deg);
+}
+#sec-about{
+    transform: rotate(270deg);
+}
+a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0.4rem;
+    display: inline-block;
+    margin:  0rem 2rem 0rem 2rem;
+}
+ul{
+    margin-left: 6rem;
+    margin-bottom: 6rem;
+    padding-left: 20%;
 }
