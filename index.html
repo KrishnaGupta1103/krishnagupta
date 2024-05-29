@@ -7,6 +7,26 @@
     <title>Krishna Gupta - Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img2.png" type="image/x-icon">
+        <style>
+        /* Style for the button */
+        #scrollToTopBtn {
+            display: none;
+            /* Hide the button initially */
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 99;
+            /* Make sure it is on top of other content */
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            font-size: 16px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
 
 <body>
@@ -91,6 +111,57 @@
         <p class="footer-p">My Contact Details : +91 9343990205</p>
         <p class="footer-p">My Email : krishnaanvi7@gmail.com</p>
     </footer>
+        <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">Top</button>
+
+    <script>
+        // Get the button
+        let scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        }
+
+        // Function to scroll to the top of the page smoothly
+        function scrollToTop() {
+            // Scroll to the top of the document over a period of 500 milliseconds
+            // This function uses requestAnimationFrame for smooth animation
+            let currentPosition = document.documentElement.scrollTop || document.body.scrollTop;
+
+            function scrollToTopAnimation(timestamp) {
+                const duration = 2000; // milliseconds
+                const start = currentPosition;
+                const end = 0;
+                const timeElapsed = timestamp - start;
+
+                function easeInOutQuad(t, b, c, d) {
+                    t /= d / 2;
+                    if (t < 1) return c / 2 * t * t + b;
+                    t--;
+                    return -c / 2 * (t * (t - 2) - 1) + b;
+                }
+
+                const scrollTop = easeInOutQuad(timeElapsed, start, end - start, duration);
+                document.documentElement.scrollTop = scrollTop;
+                document.body.scrollTop = scrollTop;
+
+                if (timeElapsed < duration) {
+                    requestAnimationFrame(scrollToTopAnimation);
+                } else {
+                    document.documentElement.scrollTop = 0;
+                    document.body.scrollTop = 0;
+                }
+            }
+
+            requestAnimationFrame(scrollToTopAnimation);
+        }
+    </script>
 </body>
 
 </html>
