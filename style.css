@@ -59,7 +59,17 @@ img {
     margin-left: 30%;
 }
 
-.container {
+#aboutsection {
+    display: flex;
+    align-items: center;
+    margin: 6rem 0rem 6rem 0rem;
+}
+#skillssection {
+    display: flex;
+    align-items: center;
+    margin: 6rem 0rem 6rem 0rem;
+}
+#projectssection {
     display: flex;
     align-items: center;
     margin: 6rem 0rem 6rem 0rem;
@@ -76,7 +86,7 @@ img {
     padding-top: 1rem;
     display: inline-block;
     margin: 0 rem;
-    margin-left: 12rem;
+    margin-left: 8rem;
 }
 
 footer {
@@ -85,39 +95,68 @@ footer {
     color: white;
 }
 
-#username-input{
-    display: block;
-    color: white;
-    background-color: black;
+.input-name{
+    display: inline;
+    color: rgb(27, 0, 86);
+    background-color: white;
     margin: 1.5rem 0rem;
-    width: 20rem;
+    width: 22rem;
     padding: 12px 20px;
     box-sizing: border-box;
+    margin-left: 2rem;
 }
-#password-input{
-    display: block;
-    color: white;
-    background-color: black;
+.input-email{
+    display: inline;
+    color: rgb(27, 0, 86);
+    background-color: white;
     margin: 1.5rem 0rem;
-    width: 20rem;
+    width: 22rem;
     padding: 12px 20px;
     box-sizing: border-box;
+    margin-left: 2rem;
 }
-#contact-div{
+.label-name{
+    margin-left: 10%;
+}
+.label-email{
+    margin-left: 5%;
+}
+.label-msg{
+    margin-left: 10%;
+}
+.input-msg{
+    display: inline;
+    color: rgb(27, 0, 86);
+    background-color: white;
+    margin: 1.5rem 0rem;
+    width: 67.5%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin-left: 1%;
+}
+#contact-div-p{
     padding-left: 37%;
     margin-bottom: 3rem;
     margin-top: 3rem;
 }
+#contact-div{
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+}
 .btn-sub{
+    display: block;
     color: white;
-    background-color: #222222;
-    margin-left: 7rem;
+    background-color: rgb(15, 0, 46);
+    margin-left: 46%;
     height: 2.5rem;
     width: 5rem;
     border: 1 px solid black;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 .btn-sub:hover{
-    border: 2px solid white;
+    text-decoration: underline solid whitesmoke 1px;
+    border: 2px solid #007bff;
 }
 #sec-skills{
     transform: rotate(90deg);
@@ -140,4 +179,19 @@ ul{
     margin-left: 6rem;
     margin-bottom: 6rem;
     padding-left: 20%;
+}
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    cursor: pointer;
+    background-color: #007bff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
