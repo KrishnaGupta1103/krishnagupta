@@ -5,11 +5,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Krishna Gupta - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img2.png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: white;
+            font-family: "Montserrat", sans-serif;
+            color: rgb(45, 1, 139);
+        }
+
+        .sec-1 {
+            background-color: rgb(27, 0, 86);
+            color: white;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .div-1 {
+            background-color: rgb(27, 0, 86);
+            color: white;
+            height: 13rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #main-head {
+            margin: 2rem 3rem;
+            font-size: 35px;
+            width: 14%;
+        }
+
+        #sec-1-img {
+            height: 90px;
+            border-radius: 13%;
+        }
+
+        .div1-p {
+            font-size: 13px;
+            line-height: 30px;
+            text-align: justify;
+            margin: 1rem 3%;
+        }
+
+        .div2-p {
+            font-size: 13px;
+            line-height: 30px;
+            text-align: justify;
+            margin: 1rem 3%;
+        }
+
+        .div3-p {
+            font-size: 13px;
+            line-height: 30px;
+        }
+
+        #aboutsection {
+            align-items: center;
+            padding: 4rem 0rem 2rem 0rem;
+            text-align: center;
+        }
+
+        #skillssection {
+            align-items: center;
+            padding: 0rem 0rem 3rem 0rem;
+            text-align: center;
+        }
+
+        #projectssection {
+            align-items: center;
+            padding: 0rem 0rem 3rem 0rem;
+            text-align: center;
+        }
+
+        .footer-p {
+            font-size: 12px;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+            display: inline-block;
+            margin: 0 rem;
+            margin-left: 8rem;
+        }
+
+        #footer {
+            background-color: rgb(27, 0, 86);
+            margin-top: 3rem;
+            color: white;
+        }
+
+        a {
+            color: white;
+            list-style-type: none;
+            text-decoration: none;
+            display: inline-block;
+            margin: 0rem 2rem 0rem 2rem;
+        }
+
+        ul {
+            margin-bottom: 4rem;
+            display: flex;
+            margin-left: 33%;
+        }
+
+        #topBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 99;
+            cursor: pointer;
+            background-color: #007bff;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            font-size: 16px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .proj1 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: white;
+            background-color: rgb(17, 0, 53);
+            padding: 1.5rem;
+            border: 2px solid rgb(45, 1, 139);
+            width: 90%;
+            margin-left: 3%;
+            line-height: 30px;
+            text-align: left;
+        }
+
+        .proj2 {
+            margin-top: 2rem;
+            color: white;
+            background-color: rgb(17, 0, 53);
+            padding: 1.5rem;
+            border: 2px solid rgb(45, 1, 139);
+            width: 90%;
+            margin-left: 3%;
+            line-height: 30px;
+            text-align: left;
+        }
+    </style>
 </head>
 
 <body>
+
+    <!-- Main - section starts here -->
+
     <section class="sec-1">
         <div class="div-1">
             <img id="sec-1-img" src="img.png" alt="">
@@ -25,80 +175,89 @@
             <a href="#projectssection">
                 <li>Projects</li>
             </a>
-            <a href="#contact-div">
-                <li>Contact</li>
-            </a>
         </ul>
     </section>
 
+
+    <!-- About section starts here -->
+
     <section id="aboutsection">
         <h1 id="sec-about">About</h1>
-        <p class="div1-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui inventore officiis optio nam
-            nostrum doloremque
-            error rerum sit, perferendis maiores, quasi culpa debitis molestiae aliquid quaerat quam delectus quae hic.
-            Nihil blanditiis rerum nam quasi quos voluptatum inventore accusamus, laborum cupiditate, asperiores autem
-            qui nisi expedita similique! Quisquam eos, quod dolorum ipsum iure accusamus culpa veniam impedit error
-            deleniti sapiente quam aspernatur eius accusantium rerum cum optio id perspiciatis nobis veritatis beatae
-            laudantium. Debitis odio voluptatibus, aperiam dicta maxime similique fugiat assumenda maiores error labore.
-            Cum aperiam veniam beatae laboriosam id? Et voluptatibus tempore amet dolorem qui dolorum officiis autem ad,
-            praesentium nemo beatae? Voluptates eveniet placeat dignissimos explicabo atque id doloribus deleniti
-            similique perferendis non porro maxime autem qui nemo labore iure, nesciunt ut veniam inventore neque.
-            Quidem officia itaque neque odio inventore. Dolorem, quia tempora? Adipisci quibusdam dolores officiis alias
-            ea vero iste esse beatae.</p>
+        <p class="div1-p">Welcome to my portfolio! I am a dedicated and innovative professional with a passion for Web
+            Development. With a strong background in C, C++ and more skills mentioned below, I bring a unique blend
+            of creativity and technical expertise to every project I undertake. My journey in this field has been
+            driven by a relentless curiosity and a desire to push boundaries, allowing me to develop a diverse skill set
+            and a keen eye for detail. Outside of work, I enjoy playing Cricket Problem Solving and more, which fuel my
+            creativity
+            and keep me inspired. I believe in the power of collaboration and am always eager to connect with
+            like-minded individuals who share my enthusiasm for excellence. Explore my portfolio to see how my skills
+            and experiences can contribute to your next project.</p>
 
     </section>
-    <hr id="hr-2">
+
+
+    <!-- Skills section starts here  -->
+
     <section id="skillssection">
-        <p class="div2-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui inventore officiis optio nam
-            nostrum doloremque
-            error rerum sit, perferendis maiores, quasi culpa debitis molestiae aliquid quaerat quam delectus quae hic.
-            Nihil blanditiis rerum nam quasi quos voluptatum inventore accusamus, laborum cupiditate, asperiores autem
-            qui nisi expedita similique! Quisquam eos, quod dolorum ipsum iure accusamus culpa veniam impedit error
-            deleniti sapiente quam aspernatur eius accusantium rerum cum optio id perspiciatis nobis veritatis beatae
-            laudantium. Debitis odio voluptatibus, aperiam dicta maxime similique fugiat assumenda maiores error labore.
-            Cum aperiam veniam beatae laboriosam id? Et voluptatibus tempore amet dolorem qui dolorum officiis autem ad,
-            praesentium nemo beatae? Voluptates eveniet placeat dignissimos explicabo atque id doloribus deleniti
-            similique perferendis non porro maxime autem qui nemo labore iure, nesciunt ut veniam inventore neque.
-            Quidem officia itaque neque odio inventore. Dolorem, quia tempora? Adipisci quibusdam dolores officiis alias
-            ea vero iste esse beatae.</p>
         <h1 id="sec-skills">Skills</h1>
+        <p class="div2-p">In my professional journey, I have cultivated a robust set of skills that make me a versatile
+            and effective contributor to any project. My expertise in DSA in C and C++ and Full Stack Web Development
+            including HTML , CSS , Javascript , NodeJS , PostgreSQL allows me to deliver high-quality results with
+            precision and efficiency. My strong analytical abilities
+            are complemented by my creative problem-solving approach, ensuring that I can navigate any obstacle with
+            confidence. I am also adept at soft skills, such as communication and teamwork which help me
+            collaborate seamlessly with diverse teams and stakeholders. My commitment to continuous learning ensures
+            that I stay updated with the latest industry trends and advancements, allowing me to bring fresh
+            perspectives and cutting-edge techniques to my work.</p>
     </section>
-    <hr id="hr-2">
+
+
+    <!-- Projects section starts here -->
+
     <section id="projectssection">
         <h1 id="sec-projects">Projects</h1>
-        <p class="div3-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui inventore officiis optio nam
-            nostrum doloremque
-            error rerum sit, perferendis maiores, quasi culpa debitis molestiae aliquid quaerat quam delectus quae hic.
-            Nihil blanditiis rerum nam quasi quos voluptatum inventore accusamus, laborum cupiditate, asperiores autem
-            qui nisi expedita similique! Quisquam eos, quod dolorum ipsum iure accusamus culpa veniam impedit error
-            deleniti sapiente quam aspernatur eius accusantium rerum cum optio id perspiciatis nobis veritatis beatae
-            laudantium. Debitis odio voluptatibus, aperiam dicta maxime similique fugiat assumenda maiores error labore.
-            Cum aperiam veniam beatae laboriosam id? Et voluptatibus tempore amet dolorem qui dolorum officiis autem ad,
-            praesentium nemo beatae? Voluptates eveniet placeat dignissimos explicabo atque id doloribus deleniti
-            similique perferendis non porro maxime autem qui nemo labore iure, nesciunt ut veniam inventore neque.
-            Quidem officia itaque neque odio inventore. Dolorem, quia tempora? Adipisci quibusdam dolores officiis alias
-            ea vero iste esse beatae.</p>
+        <div class="proj1">
+            <h3>Project - 1 <a href="#">[Link]</a></h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet voluptates, facilis impedit aliquam
+                molestiae
+                harum quisquam ipsum, delectus nesciunt illo voluptas praesentium veniam similique velit aut consectetur
+                laborum ea laudantium dignissimos numquam facere? Magni.
+            </p>
+        </div>
+        <div class="proj2">
+            <h3>Project - 2 <a href="#">[Link]</a></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam harum possimus eos
+                consequatur
+                obcaecati impedit corrupti maxime suscipit cumque autem fugiat earum reiciendis debitis ducimus
+                consequuntur
+                eveniet architecto quod quaerat ullam ratione sequi.
+            </p>
+        </div>
     </section>
-    <hr id="hr-2">
-    <section id="contact-div">
-        <p id="contact-div-p">Input your Details here to contact me!</p>
-        <form action="mailto:your.email@example.com" method="post" enctype="text/plain">
-            <label class="label-name" for="name">Name:</label>
-            <input type="text" class="input-name" name="name" required>
-            <label class="label-email" for="email">Email:</label>
-            <input type="email" class="input-email" name="email" required>
-            <label  class="label-msg" for="message">Message:</label>
-            <input type="text" class="input-msg" name="message" required></input>
-            <button  class="btn-sub" type="submit">Send</button>
-        </form>
-    </section>
-    <footer>
+
+
+    <!-- Footer starts here -->
+
+    <footer id="footer">
         <p class="footer-p">&copy; 2024 Krishna Gupta. All rights reserved.</p>
         <p class="footer-p">My Contact Details : +91 9343990205</p>
         <p class="footer-p">My Email : krishnaanvi7@gmail.com</p>
     </footer>
     <button id="topBtn">Top</button>
-    <script src="script.js"></script>
+    <script>
+        document.getElementById("topBtn").addEventListener("click", function () {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        let scrollToTopBtn = document.getElementById("topBtn");
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        }
+    </script>
 </body>
 
 </html>
