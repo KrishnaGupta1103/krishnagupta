@@ -6,6 +6,7 @@
     <title>Krishna Gupta - Portfolio</title>
     <link rel="shortcut icon" href="img2.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  media="screen and (max-width:900px)" href="phone.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -136,22 +137,6 @@
             justify-content: center;
         }
 
-        #topBtn {
-            display: none;
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 99;
-            cursor: pointer;
-            background-color: #007bff;
-            color: black;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 15px;
-            font-size: 16px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        }
-
         .proj1 {
             margin-top: 2rem;
             margin-bottom: 1rem;
@@ -163,6 +148,7 @@
             margin-left: 3%;
             line-height: 30px;
             text-align: left;
+            font-size: 13px;
         }
 
         .proj2 {
@@ -175,6 +161,52 @@
             margin-left: 3%;
             line-height: 30px;
             text-align: left;
+            font-size: 13px;
+        }
+        @media screen and (max-width:900px){
+            .div1-p {
+    font-size: 13px;
+    line-height: 20px;
+    text-align: justify;
+    margin: 1rem 3%;
+}
+
+.div2-p {
+    font-size: 13px;
+    line-height: 20px;
+    text-align: justify;
+    margin: 1rem 3%;
+}
+
+.div3-p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.proj1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+    background-color: rgb(17, 0, 53);
+    padding: 1.5rem 0rem 1.5rem 0.5rem;
+    border: 2px solid rgb(45, 1, 139);
+    width: 90%;
+    margin-left: 3%;
+    line-height: 30px;
+    text-align: left;
+}
+
+.proj2 {
+    margin-top: 2rem;
+    color: white;
+    background-color: rgb(17, 0, 53);
+    padding: 1.5rem 0rem 1.5rem 0.5rem;
+    border: 2px solid rgb(45, 1, 139);
+    width: 90%;
+    margin-left: 3%;
+    line-height: 30px;
+    text-align: left;
+}
         }
     </style>
 </head>
