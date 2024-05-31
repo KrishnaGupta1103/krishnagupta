@@ -3,156 +3,41 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Krishna Gupta - Portfolio</title>
     <link rel="shortcut icon" href="img2.png" type="image/x-icon">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
         * {
-            padding: 0;
             margin: 0;
+            padding: 0;
         }
 
-        body {
-            background-color: white;
-            font-family: "Montserrat", sans-serif;
-            color: rgb(45, 1, 139);
-        }
-
-        .sec-1 {
-            background-color: rgb(27, 0, 86);
-            color: white;
-            display: inline-block;
-            width: 100%;
-        }
-
-        .div-1 {
-            background-color: rgb(27, 0, 86);
-            color: white;
-            height: 13rem;
+        .aboutsection {
+            text-align: center;
             display: flex;
-            align-items: center;
             justify-content: center;
-        }
-
-        #main-head {
-            margin: 2rem 3rem;
-            font-size: 35px;
-            width: 14%;
-        }
-
-        #sec-1-img {
-            height: 90px;
-            border-radius: 13%;
-        }
-
-        .div1-p {
-            font-size: 13px;
-            line-height: 30px;
-            text-align: justify;
-            margin: 1rem 3%;
-        }
-
-        .div2-p {
-            font-size: 13px;
-            line-height: 30px;
-            text-align: justify;
-            margin: 1rem 3%;
-        }
-
-        .div3-p {
-            font-size: 13px;
-            line-height: 30px;
-        }
-
-        #aboutsection {
             align-items: center;
-            padding: 4rem 0rem 1rem 0rem;
-            text-align: center;
+            height: 50vh;
         }
-
-        #skillssection {
+        .aboutsection {
+            text-align: center;
+            display: flex;
+            justify-content: center;
             align-items: center;
-            padding: 1rem 0rem 2rem 0rem;
-            text-align: center;
+            height: 50vh;
         }
-
-        #projectssection {
+        .aboutsection {
+            text-align: center;
+            display: flex;
+            justify-content: center;
             align-items: center;
-            padding: 1rem 0rem 3rem 0rem;
-            text-align: center;
-        }
-
-        .footer-p {
-            font-size: 12px;
-            padding-bottom: 1rem;
-            padding-top: 1rem;
-            display: inline-block;
-            margin: 0 rem;
-            margin-left: 8rem;
+            height: 50vh;
         }
 
         #footer {
             background-color: rgb(27, 0, 86);
-            margin-top: 3rem;
             color: white;
-        }
-
-        a {
-            color: white;
-            list-style-type: none;
-            text-decoration: none;
-            display: inline-block;
-            margin: 0rem 2rem 0rem 2rem;
-            cursor: pointer;
-        }
-
-        ul {
-            margin-bottom: 4rem;
             display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        #topBtn {
-            display: none;
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 99;
-            cursor: pointer;
-            background-color: #007bff;
-            color: black;
-            border: none;
-            border-radius: 5px;
-            padding: 10px 15px;
-            font-size: 16px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        }
-
-        .proj1 {
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-            color: white;
-            background-color: rgb(17, 0, 53);
-            padding: 1.5rem;
-            border: 2px solid rgb(45, 1, 139);
-            width: 90%;
-            margin-left: 3%;
-            line-height: 30px;
-            text-align: left;
-        }
-
-        .proj2 {
-            margin-top: 2rem;
-            color: white;
-            background-color: rgb(17, 0, 53);
-            padding: 1.5rem;
-            border: 2px solid rgb(45, 1, 139);
-            width: 90%;
-            margin-left: 3%;
-            line-height: 30px;
-            text-align: left;
         }
     </style>
 </head>
@@ -167,13 +52,13 @@
             <h1 id="main-head">Krishna Gupta</h1>
         </div>
         <ul>
-            <a id="about-a">
+            <a href="#aboutsection" id="about-a">
                 <li>About</li>
             </a>
-            <a id="skills-a">
+            <a href="#skillssection" id="skills-a">
                 <li>Skills</li>
             </a>
-            <a id="projects-a">
+            <a href="#projectssection" id="projects-a">
                 <li>Projects</li>
             </a>
         </ul>
@@ -182,38 +67,28 @@
 
     <!-- About section starts here -->
 
-    <section id="aboutsection">
+    <section>
         <h1 id="sec-about">About</h1>
-        <p class="div1-p">Welcome to my portfolio! I am a dedicated and innovative professional with a passion for Web
-            Development. With a strong background in C, C++ and more skills mentioned below, I bring a unique blend
-            of creativity and technical expertise to every project I undertake. My journey in this field has been
-            driven by a relentless curiosity and a desire to push boundaries, allowing me to develop a diverse skill set
-            and a keen eye for detail. Outside of work, I enjoy playing Cricket Problem Solving and more, which fuel my
-            creativity
-            and keep me inspired. I believe in the power of collaboration and am always eager to connect with
-            like-minded individuals who share my enthusiasm for excellence. Explore my portfolio to see how my skills
-            and experiences can contribute to your next project.</p>
+        <div class="aboutsection">
+            <p class="div1-p">Welcome to my portfolio! I am a dedicated and innovative professional with a passion for
+                Web
+                Development. With a strong background in C, C++ and morlore my portf</p>
+        </div>
+
 
     </section>
-
 
     <!-- Skills section starts here  -->
 
     <section id="skillssection">
         <h1 id="sec-skills">Skills</h1>
         <p class="div2-p">In my professional journey, I have cultivated a robust set of skills that make me a versatile
-            and effective contributor to any project. My expertise in DSA in C and C++ and Full Stack Web Development
-            including HTML , CSS , Javascript , NodeJS , PostgreSQL allows me to deliver high-quality results with
-            precision and efficiency. My strong analytical abilities
-            are complemented by my creative problem-solving approach, ensuring that I can navigate any obstacle with
-            confidence. I am also adept at soft skills, such as communication and teamwork which help me
-            collaborate seamlessly with diverse teams and stakeholders. My commitment to continuous learning ensures
-            that I stay updated with the latest industry trends and advancements, allowing me to bring fresh
-            perspectives and cutting-edge techniques to my work.</p>
+            and effective contributor to any project. My expertis</p>
     </section>
 
 
-    <!-- Projects section starts here -->
+
+<!--     Projects section starts here -->
 
     <section id="projectssection">
         <h1 id="sec-projects">Projects</h1>
@@ -221,17 +96,12 @@
             <h3>Project - 1 <a href="#">[Link]</a></h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet voluptates, facilis impedit aliquam
                 molestiae
-                harum quisquam ipsum, delectus nesciunt illo voluptas praesentium veniam similique velit aut consectetur
-                laborum ea laudantium dignissimos numquam facere? Magni.
             </p>
         </div>
         <div class="proj2">
             <h3>Project - 2 <a href="#">[Link]</a></h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam harum possimus eos
-                consequatur
-                obcaecati impedit corrupti maxime suscipit cumque autem fugiat earum reiciendis debitis ducimus
-                consequuntur
-                eveniet architecto quod quaerat ullam ratione sequi.
+                consequatur.
             </p>
         </div>
     </section>
@@ -244,17 +114,6 @@
         <p class="footer-p">My Contact Details : +91 9343990205</p>
         <p class="footer-p">My Email : krishnaanvi7@gmail.com</a></p>
     </footer>
-    <script>
-        document.getElementById('about-a').addEventListener('click', function () {
-            document.getElementById('aboutsection').scrollIntoView({ behavior: 'smooth' });
-        });
-        document.getElementById('skills-a').addEventListener('click', function () {
-            document.getElementById('skillssection').scrollIntoView({ behavior: 'smooth' });
-        });
-        document.getElementById('projects-a').addEventListener('click', function () {
-            document.getElementById('projectssection').scrollIntoView({ behavior: 'smooth' });
-        });
-    </script>
 </body>
 
 </html>
