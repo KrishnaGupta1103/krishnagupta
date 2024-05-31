@@ -104,6 +104,7 @@
             text-decoration: none;
             display: inline-block;
             margin: 0rem 2rem 0rem 2rem;
+            cursor: pointer;
         }
 
         ul {
@@ -166,13 +167,13 @@
             <h1 id="main-head">Krishna Gupta</h1>
         </div>
         <ul>
-            <a href="#aboutsection">
+            <a id="about-a">
                 <li>About</li>
             </a>
-            <a href="#skillssection">
+            <a id="skills-a">
                 <li>Skills</li>
             </a>
-            <a href="#projectssection">
+            <a id="projects-a">
                 <li>Projects</li>
             </a>
         </ul>
@@ -243,6 +244,17 @@
         <p class="footer-p">My Contact Details : +91 9343990205</p>
         <p class="footer-p">My Email : krishnaanvi7@gmail.com</a></p>
     </footer>
+    <script>
+        document.getElementById('about-a').addEventListener('click', function () {
+            document.getElementById('aboutsection').scrollIntoView({ behavior: 'smooth' });
+        });
+        document.getElementById('skills-a').addEventListener('click', function () {
+            document.getElementById('skillssection').scrollIntoView({ behavior: 'smooth' });
+        });
+        document.getElementById('projects-a').addEventListener('click', function () {
+            document.getElementById('projectssection').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
 </body>
 
 </html>
